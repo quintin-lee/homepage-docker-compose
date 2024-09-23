@@ -1,0 +1,36 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/settings
+
+#favicon: https://www.baidu.com/favicon.ico
+
+title: Quintin's Homepage
+language: zh-CN
+showStats: true
+hideVersion: true
+favicon: https://github.com/walkxcode/dashboard-icons/blob/main/png/homey.png?raw=true
+providers:
+  openweathermap: openweathermapapikey
+  weatherapi: weatherapiapikey
+
+weatherapi:
+    latitude: 50.449684
+    longitude: 30.525026
+    provider: weatherapi
+
+background:
+  image: https://images.unsplash.com/photo-1502790671504-542ad42d5189?auto=format&fit=crop&w=2560&q=80
+  blur: md #模糊程度，范围 sm, "", md, xl... 参考 https://tailwindcss.com/docs/backdrop-blur
+  saturate: 50 #饱和度，范围 0, 50, 100... 参考 https://tailwindcss.com/docs/backdrop-saturate
+  brightness: 80 #亮度，范围 0, 50, 75... 参考 https://tailwindcss.com/docs/backdrop-brightness
+  opacity: 50 #不透明度，范围 0-100
+
+useEqualHeights: true
+
+layout:
+  系统管理:
+    style: column
+      #columns: 3
+  应用管理:
+    style: row
+    columns: 5

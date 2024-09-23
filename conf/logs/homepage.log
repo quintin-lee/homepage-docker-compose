@@ -1,0 +1,321 @@
+[2024-09-23T06:20:04.405Z] info: docker.yaml was copied to the config folder
+[2024-09-23T06:20:04.405Z] info: services.yaml was copied to the config folder
+[2024-09-23T06:20:04.406Z] info: bookmarks.yaml was copied to the config folder
+[2024-09-23T06:20:04.407Z] info: widgets.yaml was copied to the config folder
+[2024-09-23T06:20:04.408Z] info: custom.css was copied to the config folder
+[2024-09-23T06:20:04.408Z] info: custom.js was copied to the config folder
+[2024-09-23T06:20:04.422Z] info: kubernetes.yaml was copied to the config folder
+[2024-09-23T06:40:08.465Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-09-23T06:40:08.465Z] error: tab characters must not be used in indentation (12:1)
+
+  9 |     disk: /
+ 10 | 
+ 11 | - datetime:
+ 12 | →text_size: xl
+------^
+ 13 | →format:
+ 14 | →→timeStyle: short
+[2024-09-23T06:40:08.531Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-09-23T06:40:08.532Z] error: tab characters must not be used in indentation (12:1)
+
+  9 |     disk: /
+ 10 | 
+ 11 | - datetime:
+ 12 | →text_size: xl
+------^
+ 13 | →format:
+ 14 | →→timeStyle: short
+[2024-09-23T06:40:08.851Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-09-23T06:40:08.852Z] error: tab characters must not be used in indentation (12:1)
+
+  9 |     disk: /
+ 10 | 
+ 11 | - datetime:
+ 12 | →text_size: xl
+------^
+ 13 | →format:
+ 14 | →→timeStyle: short
+[2024-09-23T06:40:17.780Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-09-23T06:40:17.780Z] error: tab characters must not be used in indentation (12:1)
+
+  9 |     disk: /
+ 10 | 
+ 11 | - datetime:
+ 12 | →text_size: xl
+------^
+ 13 | →format:
+ 14 | →→timeStyle: short
+[2024-09-23T06:47:22.925Z] error: <httpProxy> Error calling http://quintin.top//webapi/query.cgi...
+[2024-09-23T06:47:22.927Z] error: <httpProxy> [
+  500,
+  Error [ERR_FR_REDIRECTION_FAILURE]: Redirected request failed: Protocol "https:" not supported. Expected "http:"
+      at RedirectableRequest._onNativeResponse (/app/node_modules/.pnpm/follow-redirects@1.15.8/node_modules/follow-redirects/index.js:96:17)
+      at Object.onceWrapper (node:events:632:26)
+      ... 2 lines matching cause stack trace ...
+      at HTTPParser.parserOnHeadersComplete (node:_http_common:119:17)
+      at Socket.socketOnData (node:_http_client:541:22)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    cause: TypeError [ERR_INVALID_PROTOCOL]: Protocol "https:" not supported. Expected "http:"
+        at new NodeError (node:internal/errors:405:5)
+        at new ClientRequest (node:_http_client:188:11)
+        at Object.request (node:https:366:10)
+        at RedirectableRequest._performRequest (/app/node_modules/.pnpm/follow-redirects@1.15.8/node_modules/follow-redirects/index.js:327:24)
+        at RedirectableRequest._processResponse (/app/node_modules/.pnpm/follow-redirects@1.15.8/node_modules/follow-redirects/index.js:484:8)
+        at RedirectableRequest._onNativeResponse (/app/node_modules/.pnpm/follow-redirects@1.15.8/node_modules/follow-redirects/index.js:92:12)
+        at Object.onceWrapper (node:events:632:26)
+        at ClientRequest.emit (node:events:517:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:700:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:119:17) {
+      code: 'ERR_INVALID_PROTOCOL'
+    },
+    code: 'ERR_FR_REDIRECTION_FAILURE'
+  }
+]
+[2024-09-23T06:47:22.929Z] error: <httpProxy> Error calling http://quintin.top//webapi/query.cgi...
+[2024-09-23T06:47:22.930Z] error: <httpProxy> [
+  500,
+  Error [ERR_FR_REDIRECTION_FAILURE]: Redirected request failed: Protocol "https:" not supported. Expected "http:"
+      at RedirectableRequest._onNativeResponse (/app/node_modules/.pnpm/follow-redirects@1.15.8/node_modules/follow-redirects/index.js:96:17)
+      at Object.onceWrapper (node:events:632:26)
+      ... 2 lines matching cause stack trace ...
+      at HTTPParser.parserOnHeadersComplete (node:_http_common:119:17)
+      at Socket.socketOnData (node:_http_client:541:22)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    cause: TypeError [ERR_INVALID_PROTOCOL]: Protocol "https:" not supported. Expected "http:"
+        at new NodeError (node:internal/errors:405:5)
+        at new ClientRequest (node:_http_client:188:11)
+        at Object.request (node:https:366:10)
+        at RedirectableRequest._performRequest (/app/node_modules/.pnpm/follow-redirects@1.15.8/node_modules/follow-redirects/index.js:327:24)
+        at RedirectableRequest._processResponse (/app/node_modules/.pnpm/follow-redirects@1.15.8/node_modules/follow-redirects/index.js:484:8)
+        at RedirectableRequest._onNativeResponse (/app/node_modules/.pnpm/follow-redirects@1.15.8/node_modules/follow-redirects/index.js:92:12)
+        at Object.onceWrapper (node:events:632:26)
+        at ClientRequest.emit (node:events:517:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:700:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:119:17) {
+      code: 'ERR_INVALID_PROTOCOL'
+    },
+    code: 'ERR_FR_REDIRECTION_FAILURE'
+  }
+]
+[2024-09-23T06:47:22.931Z] error: <httpProxy> Error calling http://quintin.top//webapi/query.cgi...
+[2024-09-23T06:47:22.932Z] error: <httpProxy> [
+  500,
+  Error [ERR_FR_REDIRECTION_FAILURE]: Redirected request failed: Protocol "https:" not supported. Expected "http:"
+      at RedirectableRequest._onNativeResponse (/app/node_modules/.pnpm/follow-redirects@1.15.8/node_modules/follow-redirects/index.js:96:17)
+      at Object.onceWrapper (node:events:632:26)
+      ... 2 lines matching cause stack trace ...
+      at HTTPParser.parserOnHeadersComplete (node:_http_common:119:17)
+      at Socket.socketOnData (node:_http_client:541:22)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    cause: TypeError [ERR_INVALID_PROTOCOL]: Protocol "https:" not supported. Expected "http:"
+        at new NodeError (node:internal/errors:405:5)
+        at new ClientRequest (node:_http_client:188:11)
+        at Object.request (node:https:366:10)
+        at RedirectableRequest._performRequest (/app/node_modules/.pnpm/follow-redirects@1.15.8/node_modules/follow-redirects/index.js:327:24)
+        at RedirectableRequest._processResponse (/app/node_modules/.pnpm/follow-redirects@1.15.8/node_modules/follow-redirects/index.js:484:8)
+        at RedirectableRequest._onNativeResponse (/app/node_modules/.pnpm/follow-redirects@1.15.8/node_modules/follow-redirects/index.js:92:12)
+        at Object.onceWrapper (node:events:632:26)
+        at ClientRequest.emit (node:events:517:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:700:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:119:17) {
+      code: 'ERR_INVALID_PROTOCOL'
+    },
+    code: 'ERR_FR_REDIRECTION_FAILURE'
+  }
+]
+[2024-09-23T06:47:35.916Z] error: <httpProxy> Error calling http://quintin.top//webapi/query.cgi...
+[2024-09-23T06:47:35.917Z] error: <httpProxy> [
+  500,
+  Error [ERR_FR_REDIRECTION_FAILURE]: Redirected request failed: Protocol "https:" not supported. Expected "http:"
+      at RedirectableRequest._onNativeResponse (/app/node_modules/.pnpm/follow-redirects@1.15.8/node_modules/follow-redirects/index.js:96:17)
+      at Object.onceWrapper (node:events:632:26)
+      ... 2 lines matching cause stack trace ...
+      at HTTPParser.parserOnHeadersComplete (node:_http_common:119:17)
+      at Socket.socketOnData (node:_http_client:541:22)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    cause: TypeError [ERR_INVALID_PROTOCOL]: Protocol "https:" not supported. Expected "http:"
+        at new NodeError (node:internal/errors:405:5)
+        at new ClientRequest (node:_http_client:188:11)
+        at Object.request (node:https:366:10)
+        at RedirectableRequest._performRequest (/app/node_modules/.pnpm/follow-redirects@1.15.8/node_modules/follow-redirects/index.js:327:24)
+        at RedirectableRequest._processResponse (/app/node_modules/.pnpm/follow-redirects@1.15.8/node_modules/follow-redirects/index.js:484:8)
+        at RedirectableRequest._onNativeResponse (/app/node_modules/.pnpm/follow-redirects@1.15.8/node_modules/follow-redirects/index.js:92:12)
+        at Object.onceWrapper (node:events:632:26)
+        at ClientRequest.emit (node:events:517:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:700:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:119:17) {
+      code: 'ERR_INVALID_PROTOCOL'
+    },
+    code: 'ERR_FR_REDIRECTION_FAILURE'
+  }
+]
+[2024-09-23T06:47:35.924Z] error: <httpProxy> Error calling http://quintin.top//webapi/query.cgi...
+[2024-09-23T06:47:35.925Z] error: <httpProxy> [
+  500,
+  Error [ERR_FR_REDIRECTION_FAILURE]: Redirected request failed: Protocol "https:" not supported. Expected "http:"
+      at RedirectableRequest._onNativeResponse (/app/node_modules/.pnpm/follow-redirects@1.15.8/node_modules/follow-redirects/index.js:96:17)
+      at Object.onceWrapper (node:events:632:26)
+      ... 2 lines matching cause stack trace ...
+      at HTTPParser.parserOnHeadersComplete (node:_http_common:119:17)
+      at Socket.socketOnData (node:_http_client:541:22)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    cause: TypeError [ERR_INVALID_PROTOCOL]: Protocol "https:" not supported. Expected "http:"
+        at new NodeError (node:internal/errors:405:5)
+        at new ClientRequest (node:_http_client:188:11)
+        at Object.request (node:https:366:10)
+        at RedirectableRequest._performRequest (/app/node_modules/.pnpm/follow-redirects@1.15.8/node_modules/follow-redirects/index.js:327:24)
+        at RedirectableRequest._processResponse (/app/node_modules/.pnpm/follow-redirects@1.15.8/node_modules/follow-redirects/index.js:484:8)
+        at RedirectableRequest._onNativeResponse (/app/node_modules/.pnpm/follow-redirects@1.15.8/node_modules/follow-redirects/index.js:92:12)
+        at Object.onceWrapper (node:events:632:26)
+        at ClientRequest.emit (node:events:517:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:700:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:119:17) {
+      code: 'ERR_INVALID_PROTOCOL'
+    },
+    code: 'ERR_FR_REDIRECTION_FAILURE'
+  }
+]
+[2024-09-23T06:47:35.926Z] error: <httpProxy> Error calling http://quintin.top//webapi/query.cgi...
+[2024-09-23T06:47:35.926Z] error: <httpProxy> [
+  500,
+  Error [ERR_FR_REDIRECTION_FAILURE]: Redirected request failed: Protocol "https:" not supported. Expected "http:"
+      at RedirectableRequest._onNativeResponse (/app/node_modules/.pnpm/follow-redirects@1.15.8/node_modules/follow-redirects/index.js:96:17)
+      at Object.onceWrapper (node:events:632:26)
+      ... 2 lines matching cause stack trace ...
+      at HTTPParser.parserOnHeadersComplete (node:_http_common:119:17)
+      at Socket.socketOnData (node:_http_client:541:22)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    cause: TypeError [ERR_INVALID_PROTOCOL]: Protocol "https:" not supported. Expected "http:"
+        at new NodeError (node:internal/errors:405:5)
+        at new ClientRequest (node:_http_client:188:11)
+        at Object.request (node:https:366:10)
+        at RedirectableRequest._performRequest (/app/node_modules/.pnpm/follow-redirects@1.15.8/node_modules/follow-redirects/index.js:327:24)
+        at RedirectableRequest._processResponse (/app/node_modules/.pnpm/follow-redirects@1.15.8/node_modules/follow-redirects/index.js:484:8)
+        at RedirectableRequest._onNativeResponse (/app/node_modules/.pnpm/follow-redirects@1.15.8/node_modules/follow-redirects/index.js:92:12)
+        at Object.onceWrapper (node:events:632:26)
+        at ClientRequest.emit (node:events:517:28)
+        at HTTPParser.parserOnIncomingClient (node:_http_client:700:27)
+        at HTTPParser.parserOnHeadersComplete (node:_http_common:119:17) {
+      code: 'ERR_INVALID_PROTOCOL'
+    },
+    code: 'ERR_FR_REDIRECTION_FAILURE'
+  }
+]
+[2024-09-23T06:47:57.926Z] warn: <synologyProxyHandler> Unable to login.  Code: 400
+[2024-09-23T06:47:57.927Z] warn: <synologyProxyHandler> Unable to call https://quintin.top//webapi/entry.cgi?api=SYNO.Core.System&version=3&method=info.  code: 400, error: Authentication failed..
+[2024-09-23T06:48:04.397Z] warn: <synologyProxyHandler> Unable to login.  Code: 400
+[2024-09-23T06:48:04.397Z] warn: <synologyProxyHandler> Unable to call https://quintin.top//webapi/entry.cgi?api=SYNO.Core.System.Utilization&version=1&method=get.  code: 400, error: Authentication failed..
+[2024-09-23T06:48:09.906Z] warn: <synologyProxyHandler> Unable to login.  Code: 400
+[2024-09-23T06:48:09.907Z] warn: <synologyProxyHandler> Unable to call https://quintin.top//webapi/entry.cgi?api=SYNO.Core.System&version=3&method=info&type="storage".  code: 400, error: Authentication failed..
+[2024-09-23T06:48:16.950Z] warn: <synologyProxyHandler> Unable to login.  Code: 400
+[2024-09-23T06:48:16.950Z] warn: <synologyProxyHandler> Unable to call https://quintin.top//webapi/entry.cgi?api=SYNO.Core.System&version=3&method=info&type="storage".  code: 400, error: Authentication failed..
+[2024-09-23T06:48:21.911Z] error: undefined
+[2024-09-23T06:48:21.933Z] error: undefined
+[2024-09-23T06:48:32.709Z] error: undefined
+[2024-09-23T06:48:33.067Z] error: undefined
+[2024-09-23T06:48:33.067Z] error: undefined
+[2024-09-23T06:48:33.068Z] error: undefined
+[2024-09-23T06:48:34.662Z] warn: <synologyProxyHandler> Unable to login.  Code: 400
+[2024-09-23T06:48:34.662Z] warn: <synologyProxyHandler> Unable to call https://quintin.top//webapi/entry.cgi?api=SYNO.Core.System.Utilization&version=1&method=get.  code: 400, error: Authentication failed..
+[2024-09-23T06:48:35.273Z] warn: <synologyProxyHandler> Unable to login.  Code: 400
+[2024-09-23T06:48:35.273Z] warn: <synologyProxyHandler> Unable to call https://quintin.top//webapi/entry.cgi?api=SYNO.Core.System&version=3&method=info.  code: 400, error: Authentication failed..
+[2024-09-23T08:35:59.885Z] error: Failed to discover services, please check kubernetes.yaml for errors or remove example entries.
+[2024-09-23T08:35:59.885Z] error: YAMLException: end of the stream or a document separator is expected (13:1)
+
+ 10 |   openweathermap: openweatherma ...
+ 11 |   weatherapi: weatherapiapikey
+ 12 | 
+ 13 | - weatherapi:
+------^
+ 14 |     latitude: 50.449684
+ 15 |     longitude: 30.525026
+[2024-09-23T08:35:59.886Z] error: Failed to load settings.yaml, please check for errors
+[2024-09-23T08:35:59.886Z] error: YAMLException: end of the stream or a document separator is expected (13:1)
+
+ 10 |   openweathermap: openweatherma ...
+ 11 |   weatherapi: weatherapiapikey
+ 12 | 
+ 13 | - weatherapi:
+------^
+ 14 |     latitude: 50.449684
+ 15 |     longitude: 30.525026
+[2024-09-23T08:35:59.889Z] error: Failed to load settings.yaml, please check for errors
+[2024-09-23T08:35:59.889Z] error: YAMLException: end of the stream or a document separator is expected (13:1)
+
+ 10 |   openweathermap: openweatherma ...
+ 11 |   weatherapi: weatherapiapikey
+ 12 | 
+ 13 | - weatherapi:
+------^
+ 14 |     latitude: 50.449684
+ 15 |     longitude: 30.525026
+[2024-09-23T08:35:59.897Z] error: <index> YAMLException: end of the stream or a document separator is expected (13:1)
+
+ 10 |   openweathermap: openweatherma ...
+ 11 |   weatherapi: weatherapiapikey
+ 12 | 
+ 13 | - weatherapi:
+------^
+ 14 |     latitude: 50.449684
+ 15 |     longitude: 30.525026
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1273:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1277:9)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2735:5)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2778:5)
+    at Object.load$1 [as load] (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2804:19)
+    at getSettings (/app/.next/server/chunks/1227.js:109:75)
+    at getStaticProps (/app/.next/server/pages/index.js:3089:101)
+    at Object.renderToHTML (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/render.js:386:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async doRender (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:687:38)
+[2024-09-23T08:36:00.198Z] error: Failed to discover services, please check kubernetes.yaml for errors or remove example entries.
+[2024-09-23T08:36:00.198Z] error: YAMLException: end of the stream or a document separator is expected (13:1)
+
+ 10 |   openweathermap: openweatherma ...
+ 11 |   weatherapi: weatherapiapikey
+ 12 | 
+ 13 | - weatherapi:
+------^
+ 14 |     latitude: 50.449684
+ 15 |     longitude: 30.525026
+[2024-09-23T08:36:00.199Z] error: Failed to load settings.yaml, please check for errors
+[2024-09-23T08:36:00.199Z] error: YAMLException: end of the stream or a document separator is expected (13:1)
+
+ 10 |   openweathermap: openweatherma ...
+ 11 |   weatherapi: weatherapiapikey
+ 12 | 
+ 13 | - weatherapi:
+------^
+ 14 |     latitude: 50.449684
+ 15 |     longitude: 30.525026
+[2024-09-23T08:36:00.200Z] error: Failed to load settings.yaml, please check for errors
+[2024-09-23T08:36:00.200Z] error: YAMLException: end of the stream or a document separator is expected (13:1)
+
+ 10 |   openweathermap: openweatherma ...
+ 11 |   weatherapi: weatherapiapikey
+ 12 | 
+ 13 | - weatherapi:
+------^
+ 14 |     latitude: 50.449684
+ 15 |     longitude: 30.525026
+[2024-09-23T08:57:12.750Z] error: undefined
+[2024-09-23T08:57:13.496Z] error: undefined
+[2024-09-23T08:57:26.092Z] error: undefined

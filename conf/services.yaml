@@ -1,0 +1,32 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/services
+
+- 系统管理:
+    - 群晖:
+        icon: synology.png
+        href: https://quintin.top/
+    - fnos:
+        icon: debian.png
+        href: https://fnos.quintin.top/
+    - istoreos:
+        icon: openwrt.png
+        href: https://istoreos.quintin.top/
+        widget:
+          type: openwrt
+          url: https://istoreos.quintin.top
+          username: root
+          password: 
+          interfaceName: eth0 # optional
+
+- 应用管理:
+    - Gogs:
+        icon: gogs.png
+        href: https://gogs.quintin.top
+    - 青龙面板:
+        icon: qinglong.png
+        href: https://qinglong.quintin.top
+    - 觅思文档:
+        icon: notesnook.png
+        href: https://doc.quintin.top
+

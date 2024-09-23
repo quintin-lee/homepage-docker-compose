@@ -1,0 +1,18 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/service-widgets
+
+- resources:
+    cpu: true
+    memory: true
+    uptime: true
+    disk: /
+
+- search:
+    provider: [bing, baidu, google]
+    target: _blank
+
+- datetime:
+    text_size: xl
+    format:
+      timeStyle: short
