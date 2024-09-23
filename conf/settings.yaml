@@ -28,9 +28,9 @@ background:
 useEqualHeights: true
 
 layout:
-  系统管理:
-    style: column
-      #columns: 3
   应用管理:
     style: row
     columns: 5
+  系统管理:
+    style: column
+      #columns: 3

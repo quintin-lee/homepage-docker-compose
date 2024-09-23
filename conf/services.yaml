@@ -6,6 +6,12 @@
     - 群晖:
         icon: synology.png
         href: https://quintin.top/
+        widget:
+          type: diskstation
+          url: https://quintin.top/
+          username: admin
+          password: 
+          volume: # optional
     - fnos:
         icon: debian.png
         href: https://fnos.quintin.top/
@@ -18,6 +24,29 @@
           username: root
           password: 
           interfaceName: eth0 # optional
+    - gotify:
+        icon: gotify.png
+        href: https://gotify.quintin.top
+        widget:
+          type: gotify
+          url: https://gotify.quintin.top
+          key: 
+    - homeassistant:
+        icon: homeassistant.png
+        href: https://homeassistant.quintin.top
+        widget:
+          type: homeassistant
+          url: https://homeassistant.quintin.top
+          key: access_token
+          custom:
+            - state: sensor.total_power
+            - state: sensor.total_energy_today
+              label: energy today
+            - template: "{{ states.switch|selectattr('state','equalto','on')|list|length }}"
+              label: switches on
+            - state: weather.forecast_home
+              label: wind speed
+              value: "{attributes.wind_speed} {attributes.wind_speed_unit}"
 
 - 应用管理:
     - Gogs:
